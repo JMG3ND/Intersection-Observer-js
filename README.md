@@ -1,3 +1,5 @@
+[Vista previa del prooyecto]: https://app.netlify.com/sites/intersectionobserve-ejemplo/settings/general
+
 # Intersection Observer
 
 Intersection Observer es una API de JavaScript que permite observar cambios en la intersección de un elemento con respecto a otro. Este método es especialmente útil para cargar contenido dinámico de manera eficiente y para implementar efectos visuales avanzados.
