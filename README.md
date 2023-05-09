@@ -9,7 +9,7 @@ Cuando la intersección entre el elemento observado y el contenedor raíz cambia
 ---
 ## Ejemplo de implementación
 A continuación, se presenta un ejemplo básico de cómo implementar el método Intersection Observer en JavaScript:
-`const options = {
+```const options = {
   root: null,
   rootMargin: '0px',
   threshold: 1.0
@@ -25,7 +25,14 @@ const observer = new IntersectionObserver(function(entries, observer) {
 }, options);
 
 observer.observe(document.querySelector('#elementoObservado'));
-`
+```
+
+```
+function test() {
+  console.log("notice the blank line before this function?");
+}
+```
+
 En este ejemplo, se crea un objeto observador con tres opciones: el contenedor raíz es el viewport (root: null), no se utiliza margen adicional (rootMargin: '0px') y se utiliza un threshold de 1.0, lo que significa que la función se activará cuando el elemento observado esté completamente visible en el viewport.
 
 Luego, se utiliza el método observe para empezar a observar el elemento con el ID "elementoObservado". Cuando este elemento intersecte con el viewport, se activará la función correspondiente.
