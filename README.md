@@ -5,6 +5,7 @@ Intersection Observer es una API de JavaScript que permite observar cambios en l
 El método Intersection Observer crea un objeto observador que se encarga de vigilar la intersección de un elemento con respecto a otro. Este segundo elemento se conoce como el "contenedor raíz", y puede ser el viewport del navegador o cualquier otro elemento del documento HTML.
 
 Cuando la intersección entre el elemento observado y el contenedor raíz cambia, el observador activa una función que se encarga de manejar el cambio. Esta función puede ser utilizada para cargar contenido dinámicamente, para cambiar estilos o para cualquier otro propósito que se desee.
+
 ---
 ## Ejemplo de implementación
 A continuación, se presenta un ejemplo básico de cómo implementar el método Intersection Observer en JavaScript:
