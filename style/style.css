@@ -1,0 +1,51 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+.nav-section {
+    position: fixed;
+    right: 0;
+    padding-right: 2rem;
+    padding-top: 2rem;
+}
+
+.nav-section a {
+    display: inline-block;
+    padding: 0.5rem;
+}
+
+.nav-section .active {
+    background-color: beige;
+}
+
+.section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+#section1 {
+    background-color: aqua;
+}
+
+#section2 {
+    background-color: bisque;
+}
+
+#section3 {
+    background-color: azure;
+}
+
+#section4 {
+    background-color: rgb(135, 129, 121);
+}
+
+#section5 {
+    background-color: rgb(120, 143, 143);
+}
