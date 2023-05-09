@@ -1,6 +1,6 @@
 # Ejemplo de implementación de Intersection Observer
 
-[Vista previa del prooyecto]: (https://app.netlify.com/sites/intersectionobserve-ejemplo/settings/general)
+[Vista previa del proyecto](https://app.netlify.com/sites/intersectionobserve-ejemplo/settings/general)
 
 ---
 
